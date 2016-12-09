@@ -135,13 +135,21 @@ hr {
   height: 100vh;
   text-align: center;
 }
+#home #pushdown {
+	padding-top: 400px;
+}
+#home #sign {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
 #home h1 {
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 8px;
   font-style: normal;
-  padding-top: 400px;
 }
-#home .btn {
+
+/*#home .btn {
   background: transparent;
   border-radius: 0;
   border: 3px solid #ffffff;
@@ -155,7 +163,7 @@ hr {
 #home .btn:hover {
   background: #ffffff;
   color: #202020;
-}
+}*/
 
 /* service section */
 #service {
